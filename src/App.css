@@ -1,0 +1,38 @@
+body {
+  background-color: #c0deed;
+}
+
+.fa-comment:hover {
+  color: #0e76a8;
+}
+.fa-retweet:hover {
+  color: #048b04;
+}
+.fa-heart:hover {
+  color: #f0281a;
+}
+.fa-share:hover {
+  color: #0e76a8;
+}
+.fa-chart-bar:hover {
+  color: #0e76a8;
+}
+
+.tweet:hover {
+  background-color: rgba(184, 184, 236, 0.4);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
