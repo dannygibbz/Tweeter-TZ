@@ -13,7 +13,7 @@ class App extends React.Component {
   }
 
   componentDidMount() {
-    fetch("http://localhost:4000/data")
+    fetch("/data")
       .then(response => response.json())
       .then(data => this.setState({ tweets: data }))
   }
